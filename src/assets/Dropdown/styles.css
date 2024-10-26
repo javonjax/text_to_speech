@@ -1,0 +1,15 @@
+.dropdown {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.dropdown > label {
+    font-size: 1.5rem;
+}
+
+select {
+    margin: 2rem;
+    width: 80%;
+}

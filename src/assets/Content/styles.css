@@ -1,0 +1,19 @@
+.tts-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid black;
+    background-color: rgb(147, 145, 133);
+    border-top: none;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 2rem;
+    width: 50rem;
+}
+
+.text-box {
+    width: 100%;
+    height: 20rem;
+    font-size: 1.5rem;
+    background-color: rgb(238, 237, 235);
+}
