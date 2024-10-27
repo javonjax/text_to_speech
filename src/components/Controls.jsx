@@ -23,7 +23,6 @@ const Controls = () => {
           <button>Pause</button>
           <button>Stop</button>
         </div>
-        <button>Clear</button>
       </div>
     </>
   );
