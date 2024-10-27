@@ -5,11 +5,7 @@
     width: 60%;
 }
 
-.dropdown > label {
-    font-size: 1.5rem;
-}
-
 select {
-    margin: 2rem;
+    margin: 1rem;
     width: 80%;
 }

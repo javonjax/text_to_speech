@@ -1,14 +1,18 @@
 import { useState } from 'react';
 import Header from '../components/header';
-import Content from '../components/Content';
+import Controls from '../components/Controls';
+import TextBox from '../components/TextBox';
 import '../assets/App/styles.css';
 
-function App() {
+const App = () => {
+  const [text, setText] = useState('Tell me what to say by typing in the box!');
+
   return (
     <>
       <div className='app-container'>
         <Header title="Speaky" />
-        <Content />
+        <Controls />
+        <TextBox text={text} setText={setText}/>
       </div>
     </>
   );

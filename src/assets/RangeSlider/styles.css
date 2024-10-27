@@ -1,12 +1,16 @@
 .range-slider {
     display: flex;
     flex-direction: column;
-    max-width: 30%;
+    align-items: center;
+    width: 100%;
+}
+
+.range-slider > input {
+    width: 100px;
 }
 
 .range-slider > label {
     text-align: center;
-    font-size: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 4px;
 }
 
