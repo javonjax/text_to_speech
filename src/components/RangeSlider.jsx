@@ -1,10 +1,10 @@
 import '../assets/RangeSlider/styles.css';
 
-const RangeSlider = ({ option }) => {
+const RangeSlider = ({ type }) => {
   return (
     <div className='range-slider'>
-      <input type='range' id={`${option}-control`}></input>
-      <label htmlFor={`${option}-control`}>{option}</label>
+      <input type='range' id={`${type}-control`}></input>
+      <label htmlFor={`${type}-control`}>{type}</label>
     </div>
   );
 };
