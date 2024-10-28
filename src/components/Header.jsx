@@ -1,11 +1,11 @@
 import '../assets/Header/styles.css';
 
-const Header = ({ title = 'Text to Speech' }) => {
+const Header = ({ title, subText }) => {
   return (
     <>
       <header>
         {title}
-        <p>Simple text to speech</p>
+        <p>{subText}</p>
       </header>
     </>
   );

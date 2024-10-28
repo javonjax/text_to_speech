@@ -5,10 +5,7 @@ import Settings from './Settings';
 import Dropdown from './Dropdown';
 import RangeSlider from './RangeSlider';
 
-const Controls = () => {
-  const synth = window.speechSynthesis;
-  const voiceOptions = synth.getVoices();
-
+const Controls = ({ voiceOptions}) => {
   return (
     <>
       <div className="tts-container">
