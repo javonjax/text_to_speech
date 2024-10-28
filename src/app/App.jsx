@@ -7,6 +7,9 @@ import '../assets/App/styles.css';
 
 const App = () => {
   const [text, setText] = useState('Tell me what to say by typing in the box!');
+  const [volume, setVolume] = useState(0.5);
+  const [pitch, setPitch] = useState(1);
+  const [rate, setRate] = useState(1);
   const synth = window.speechSynthesis;
   const voiceOptions = synth.getVoices();
 
